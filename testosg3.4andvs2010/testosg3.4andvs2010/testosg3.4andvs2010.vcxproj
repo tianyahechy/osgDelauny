@@ -56,7 +56,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\runtime\osg3.5.1\lib;D:\runtime\osgEarth2.8\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>osgViewerd.lib;osgd.lib;osgdbd.lib;openThreadsd.lib;osgGAd.lib;osgEarthd.lib;osgEarthUtild.lib;osgEarthFeaturesd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>osgViewerd.lib;osgd.lib;osgdbd.lib;openThreadsd.lib;osgGAd.lib;osgEarthd.lib;osgEarthUtild.lib;osgEarthFeaturesd.lib;osgUtild.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
